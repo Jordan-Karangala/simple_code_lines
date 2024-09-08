@@ -7,3 +7,7 @@ pyenv virtualenv <python_version> <venv_name>
 #  To display the list of python versions available to download
 pyenv install --list
 
+# To activate a python venv
+pyenv activate <venv_name>
+
+
