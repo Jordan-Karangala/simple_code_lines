@@ -9,5 +9,8 @@ pyenv install --list
 
 # To activate a python venv
 pyenv activate <venv_name>
-
+#  Example
+pyenv install 3.10.0     # Install a specific Python version
+pyenv virtualenv 3.10.0 myproject-env   # Create a `pyenv`-managed virtual environment
+pyenv activate myproject-env  # Activate the `pyenv` virtual environment
 
